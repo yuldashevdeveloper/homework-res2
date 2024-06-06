@@ -1,0 +1,41 @@
+aside{
+    padding-top: 80px;
+    .aside-desc{
+        .aside-titile{
+            font-size: 38px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .aside-text{
+            font-size: 22px;
+            font-weight: 400;
+            color: #fff;
+            padding-top: 10px;
+        }
+    }
+
+    .aside-box{
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+        .aside-item{
+            width: 37%;
+
+            .aside-images{
+                padding-top: 15px;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .aside-info{
+                font-size: 22px;
+                font-weight:600;
+                color: #fff;
+                padding-top: 15px;
+            }
+
+        }
+    }
+}
+
